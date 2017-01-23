@@ -12,7 +12,7 @@ echo "<!DOCTYPE html>\n<html><head>";
 
 require_once 'functions.php';
 
-$usestr = ' (Guest)';
+$userstr = ' (Guest)';
 
 if (isset($_SESSION['user']))
 {
